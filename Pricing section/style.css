@@ -1,0 +1,127 @@
+
+@font-face {
+  font-family: 'Nunito'; /* Name your font family */
+  src: url('./Nunito-VariableFont_wght.ttf'); /* Locate the .ttf file within your directory*/
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito';
+}
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(246, 249, 255);
+}
+
+.center-box{
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
+  flex-wrap: wrap;
+}
+
+.pricingcard{
+  height: 363px;
+  width: 262px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+.free-pri-fistbox{
+  margin-bottom: 10px;
+}
+
+.pricing-div-box{
+  height: 306px;
+  width: 198px;
+  display: flex;
+  flex-direction: column;
+  color:#202842;
+}
+
+.pricing-div-boxx{
+  height: 306px;
+  width: 198px;
+  display: flex;
+  flex-direction: column;
+  color:#ffffff;
+}
+
+
+.free-pri-secbox{
+  height: auto;
+  width:100%;
+  display: flex;
+  align-items: center;
+  border-radius: 8px 8px 0px 0px;
+  color: #424242;
+}
+.free-pri-secboxx{
+  height: auto;
+  width:100%;
+  display: flex;
+  align-items: center;
+  border-radius: 8px 8px 0px 0px;
+  color: #ffffff; 
+}
+
+.pricing-rd-box{
+  margin-top: 10px;
+}
+
+.free-pri-thirbox{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.free-pri-thirboxx{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 3.5px;
+  margin-bottom: 3.5px;
+}
+.free-pri-thirboxx img{
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.free-pri-thirbox img{
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+
+.free-pri-fourbox{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+button{
+width: 156px;
+height: 38px;
+padding: 8px 24px 8px 24px;
+gap: 10px;
+border: none;
+border-radius: 40px;
+color: #ffffff;
+background-color: #202842;
+}
