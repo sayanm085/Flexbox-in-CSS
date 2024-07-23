@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+}
+
+.irctc-main-box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.irctc-left-box{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.irctc-main-center-div{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+
+.irctc-top-div-box{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-div{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8rem;
+}
+
+.logo-div img{
+    width: 70px;
+    height: 70px;
+
+}
+
+.irctc-top-ops-div-box{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+.irctc-top-ops-div-box-one{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.irctc-top-ops-div-box-two{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.irctc-top-ops-div-box-two button{
+    background-color: #ff4040;
+    color: #000000;
+    border: 2px solid black;
+    background-color:transparent;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.irctc-titel-box{
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 40px;
+}
+
+.irctc-titel-box h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #000000;
+  
+}
+
+.irctc-titel-box div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 1.4rem;
+    gap: 1rem;
+}
+
+
+.irctc-menu-btn-box{
+    width: 75%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 20px;
+
+}
+.irctc-menu-btn-box button{
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.irctc-menu-btn-box button i{
+    margin-right: 5px;
+}
+
+
+
+.irctc-form-to-box{
+    width: 75%;
+    height: 110px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border: 2px solid #d1d1d1;
+}
+
+.irctc-form-box{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    gap: 0.6rem;
+}
+
+.from-icon-box{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.to-icon-box{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.from-itctc-box{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.from-box{
+    width: 100%;
+    display: flex;
+    gap: 0.6rem;
+    margin-top: 10px;
+    color: #555555;
+}
+
+.to-box{
+    width: 100%;
+    display: flex;
+    gap: 0.6rem;
+    margin-top: 10px;
+    color: #555555;
+}
+
+
+.city-box{
+    width: 100%;
+    display: flex;
+    gap: 0.6rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+
+
+
+
+.irctc-arow-box{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.from-to-arow{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border: 2px solid #d1d1d1;
+}
+
+.from-to-arow img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+
+.irctc-to-box{
+    height: 100%;
+    width: 40%;
+    display: flex;
+
+}
+
+
+
+
+
+
+.irctc-submit-btn-box{
+    width: 75%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.irctc-submit-btn-box button{
+    height: 100%;
+    width: 100%;
+    background-color: #2ee500;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.irctc-right-box{
+    width: 33.5%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+
+}
+
+.irctc-right-box img{
+    width: auto;
+    height: 100%;  
+    object-fit: cover;
+}
+    
